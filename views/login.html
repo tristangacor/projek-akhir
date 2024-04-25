@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/tristangacor/css_web_semester_antara/009154c7fe032081c5cf35ac9175d7b8f9954434/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <form method="POST">
+            <h1>login</h1>
+            <div class="input-box">
+                <select name="user" id="" class="input-box">
+                    <option value="mahasiswa">Mahasiswa</option>
+                    <option value="dosen">Dosen</option>
+                    <option value="admin">Admin</option>
+                </select>
+            </div>
+           
+            <div class="input-box">
+                <input name="username" type="text" placeholder="NIM/kode dosen"required>
+            </div>
+            <div class="input-box">
+                <input name="password" type="password" placeholder="password"required>
+            </div>
+
+            <button type="submit" class="btn">login</button>
+
+        </form>
+    </div>
+</body>
+</html>
